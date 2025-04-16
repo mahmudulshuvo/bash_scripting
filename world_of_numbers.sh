@@ -1,9 +1,8 @@
-# !/bin/bash
-read X Y
+#!/bin/bash
+# World of Numbers
 
-if [[ $X -lt -100 || $X -gt 100 || $Y -lt -100 || $Y -gt 100 || $Y -eq 0 ]]; then
-  exit 1
-fi
+read X
+read Y
 
 sum=$((X+Y))
 difference=$((X-Y))
